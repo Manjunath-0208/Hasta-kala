@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hasta-Kala Shop</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_history">History</string>
+    <string name="nav_inventory">Inventory</string>
+    <string name="nav_income">Income</string>
+    <string name="add_sale">Add Sale</string>
+    <string name="save_sale">Save Sale</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="no_sales">No sales recorded yet</string>
+    <string name="no_inventory">No inventory set yet.\nTap + to add stock.</string>
+    <string name="no_income">No income recorded yet.\nTap + to add an entry.</string>
+    <string name="low_stock_banner">⚠️ Some items are running low on stock!</string>
+    <string name="delete_confirm">Delete this sale record?</string>
+    <string name="save_failed">Save failed. Please try again.</string>
+    <string name="sale_saved">Sale saved successfully!</string>
+    <string name="income_saved">Income recorded!</string>
+</resources>

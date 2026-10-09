@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.hastakala.app.ui.dashboard.DashboardFragment"
+        android:label="Dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_addSale"
+            app:destination="@id/addSaleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addSaleFragment"
+        android:name="com.hastakala.app.ui.sale.AddSaleFragment"
+        android:label="Add Sale"/>
+
+    <fragment
+        android:id="@+id/salesHistoryFragment"
+        android:name="com.hastakala.app.ui.sale.SalesHistoryFragment"
+        android:label="Sales History"/>
+
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="com.hastakala.app.ui.inventory.InventoryFragment"
+        android:label="Inventory"/>
+
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.hastakala.app.ui.income.IncomeFragment"
+        android:label="Income"/>
+
+</navigation>
